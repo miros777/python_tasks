@@ -26,9 +26,7 @@ greeting = 'Hello, world'
 ['H', 'E', 'L', 'L', 'O', ',', ' ', 'W', 'O', 'R', 'L', 'D']'''
 
 greeting = 'Hello, world'
-res = []
-for i in greeting:
-    res.append(i.upper())
+res = [i.upper() for i in greeting]
 print(res)
 
 '''
